@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>   
+        <documentTitle>Dedalow Html Report</documentTitle>
+        <encoding>UTF-8</encoding>   
+        <theme>standard</theme>
+        <reportName> 
+            <![CDATA[
+                <img src='../../resources/logo.png' style='position: absolute;left: 220px;width: auto;'/>
+                <message> Html Report </message>
+            ]]> 
+        </reportName>
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                $('body').append('<link rel="stylesheet" type="text/css" href=../../resources/styles.css>')
+                });
+            ]]>
+        </scripts>
+     </configuration>   
+</extentreports>
